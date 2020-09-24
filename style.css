@@ -134,6 +134,16 @@ form {
     height: 15vw;
 }
 
+/* Change Autocomplete styles in Chrome*/
+input:-webkit-autofill,
+select:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #ffffff inset;
+}
+
+.border {
+    border: solid 1px black;
+}
+
 .noBorder {
     border: none;
     width: 100%;
@@ -155,6 +165,10 @@ form {
 
 #pass_id {
     font-size: 8vw;
+}
+
+progress {
+    color: green;
 }
 
 #btnAfficher {
@@ -187,7 +201,7 @@ form {
 
 .footer {
     background-color: #f6f8f9;
-    padding: 1em;
+    padding: 8vw;
 }
 
 ul li {
@@ -203,22 +217,28 @@ ul li a {
 .conditions {
     width: 80%;
     color: #889ca7;
-    margin-left: auto;
-    margin-right: auto;
     text-align: left;
     line-height: 3.5vw;
-    padding: 5vw;
+    margin: 8vw;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.9vw;
+}
+
+.conditions a {
+    color: #889ca7
 }
 
 .mentions {
     display: flex;
-    justify-content: space-around;
     list-style-type: none;
-    line-height: 4vw;
+    font-size: 4vw;
 }
 
-.text {
-    color: #889ca7;
-    padding: 4vw;
+.copyright {
+    color: #9FAEB8;
     line-height: 1.54;
+    font-weight: 300;
+    padding: 2vw;
 }
+
+@media screen and (min-width: 900px) {}

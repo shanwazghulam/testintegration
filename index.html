@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>europe1</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <img class="logoJDD" src="img/logo-lejdd.svg" alt="logo JDD">
+    </header>
+
+    <hr class="hr">
+
+    <div class="titre">
+        Créez votre compte pour finaliser votre abonnement
+    </div>
+
+    <div class="passMedia">
+        <a href="#">Découvrez PasseMedia</a> pour accéder à de nombreux médias avec un compte unique
+    </div>
+
+    <div class="containerBtn">
+        <button class="btnPassMedia" href="#">
+            <img src="img/passMedia.svg" class="iconeP" alt="logo PassMedia">
+            S'inscrire avec PassMedia</button>
+    </div>
+
+    <br>
+
+    <div class="containerBtnSocial">
+        <button class="btnSocial">
+            <img src="img/logo-facebook.png" class="iconeSocial" alt="logo facebook">
+            Facebook
+        </button>
+        <button class="btnSocial">
+            <img src="img/logo-google.png" class="iconeSocial" alt="logo google">
+            Google</button>
+    </div>
+
+    <br>
+
+    <fieldset>
+        <legend>Ou par e-mail</legend>
+    </fieldset>
+
+    <form class="form" id="form">
+
+        <div class="div_input">
+            <label for="mail_id">
+                <span class="material-icons">
+                    mail_outline
+                </span>
+            </label><input class="noBorder" id="mail_id" type="email" required placeholder="ghulam.shanwaz@gmail.com"
+                autocomplete>
+        </div>
+
+        <br>
+
+        <div class="div_input">
+            <label for="pass_id">
+                <img class="lock" src="img/lock.png" alt="cadenas">
+            </label>
+            <input class="noBorder" id="pass_id" type="password" required autocomplete="current-password" minlength="4">
+            <button id="btnAfficher" class="noBorder">AFFICHER</button>
+        </div>
+
+        <br>
+        <input type="submit" class="submit" value="S’inscrire">
+
+    </form>
+
+    <hr class="hr">
+    <div class="connect">
+        <p>Vous avez déjà un compte ?</p>
+        <a href="#" class="color">Connecter vous</a>
+    </div>
+    <hr class="hr">
+    <div class="connect">
+        <p>Vous êtes abonné à la version papier ?</p>
+        <a href="#" class="color">Activez votre compte</a>
+    </div>
+    <hr class="hr">
+
+    <div class="conditions">
+        <p>
+            Nous collectons les données ci-dessus pour la création de votre compte utilisateur. En cliquant sur
+            "S'inscrire" ou sur l'un des boutons d'inscription rapide PassMedia, Facebook et Google, vous acceptez <a
+                href="#">nos conditions générale d'utilisations.</a>
+        </p>
+        <br>
+        <p>
+            <a href="#">Notre charte de données personnelles & cookies</a> vous informe sur la gestion de vos données
+            personnelles et sur <a href="#">les droits</a> que vous pourrez exercez
+        </p>
+    </div>
+    <hr class="hr">
+    <footer class="footer">
+        <ul class="mentions">
+            <li><a href="#">CGU</a></li>
+            <li><a href="#">CGV</a></li>
+            <li><a href="#">Mentions légales</a></li>
+            <li><a href="#">Aide en ligne</a></li>
+        </ul>
+        <ul class="mentions">
+            <li><a href="#">Données personnelles et cookies</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+        <p class="text">2020 © Le Journal du Dimanche. Le site LeJDD.fr est édité par Lagardère Média News </p>
+
+    </footer>
+</body>
+
+</html>

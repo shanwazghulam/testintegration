@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+
+}
+
+.logoJDD {
+    width: 26%;
+}
+
+.hr {
+    border: none;
+    border-top: solid 1px #e0e4e7;
+}
+
+.titre {
+    border: red 1px solid;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 7.5vw;
+    margin: 13vw;
+}
+
+.passMedia {
+    border: red 1px solid;
+    margin: 9vw;
+    line-height: 1.38;
+    color: #30bed4;
+    text-align: center;
+    font-size: 3.5vw;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.passMedia a {
+    color: #30bed4;
+}
+
+.containerBtn {
+    display: flex;
+}
+
+.btnPassMedia {
+    margin: auto;
+    display: flex;
+
+    align-items: center;
+    width: 80%;
+    height: 15vw;
+
+    background-color: #30bed4;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 3.7vw;
+    line-height: 1.87;
+    cursor: pointer;
+}
+
+.iconeP {
+    padding-right: 5vw;
+    padding-left: 3vw;
+}
+
+.containerBtnSocial {
+    margin: auto;
+    width: 81%;
+    height: 15vw;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.btnSocial {
+    border: none;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 4vw;
+    color: #757575;
+    line-height: 1.87;
+    background-color: #eeeeee;
+    width: 49%;
+    cursor: pointer;
+}
+
+.iconeSocial {
+    width: 6vw;
+    height: 6vw;
+}
+
+fieldset {
+    border: none;
+    border-top: solid 1px #E0E4E7;
+    margin: auto;
+    text-align: center;
+    width: 80%;
+}
+
+legend {
+    padding: 4vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 8vw;
+}
+
+.div_input {
+    border: solid 1px #D9DEE1;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    height: 15vw;
+}
+
+.noBorder {
+    border: none;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    outline: none;
+}
+
+.material-icons {
+    color: #889CA7;
+    padding: 2vw;
+    display: block;
+}
+
+.lock {
+    width: 6vw;
+    padding: 1vw;
+}
+
+#pass_id {
+    font-size: 8vw;
+}
+
+#btnAfficher {
+    width: 20%;
+    padding-right: 15vw;
+    font-size: 3vw;
+    cursor: pointer;
+}
+
+.submit {
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: #F60000;
+    height: 15vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.connect {
+    padding: 1em;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.color {
+    color: #F60000;
+}
+
+.footer {
+    background-color: #f6f8f9;
+    padding: 1em;
+}
+
+ul li {
+    padding: 2vw;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: #889ca7
+}
+
+.conditions {
+    width: 80%;
+    color: #889ca7;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    line-height: 3.5vw;
+    padding: 5vw;
+}
+
+.mentions {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    line-height: 4vw;
+}
+
+.text {
+    color: #889ca7;
+    padding: 4vw;
+    line-height: 1.54;
+}

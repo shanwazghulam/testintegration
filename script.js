@@ -20,8 +20,8 @@ outline(pass_id);
 
 function passwordStrength(pw) {
   return (
-    /.{8,}/.test(pw) /* at least 8 characters */ *
-    (/.{12,}/.test(pw) /* bonus if longer */ +
+    /.{5,}/.test(pw) /* at least 5 characters */ *
+    (/.{8,}/.test(pw) /* bonus if longer */ +
     /[a-z]/.test(pw) /* a lower letter */ +
     /[A-Z]/.test(pw) /* a upper letter */ +
     /\d/.test(pw) /* a digit */ +

@@ -176,6 +176,12 @@ select:-webkit-autofill {
     font-size: 8vw;
 }
 
+progress {
+    width: 100%;
+    margin-top: 1vw;
+    background-color: green;
+}
+
 
 #btnAfficher {
     width: 30%;
@@ -344,6 +350,12 @@ ul li a {
 
     }
 
+    progress {
+        text-align: center;
+        margin: auto;
+        width: 400px;
+        margin-top: 10px;
+    }
 
     #btnAfficher {
         width: 130px;

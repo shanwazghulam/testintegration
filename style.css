@@ -182,6 +182,11 @@ progress {
     background-color: green;
 }
 
+#infoProgress {
+    color: green;
+    visibility: hidden;
+}
+
 
 #btnAfficher {
     width: 30%;
@@ -355,6 +360,11 @@ ul li a {
         margin: auto;
         width: 400px;
         margin-top: 10px;
+    }
+
+    #infoProgress {
+        width: 400px;
+        margin: auto;
     }
 
     #btnAfficher {

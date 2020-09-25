@@ -19,18 +19,17 @@ outline(mail_id);
 outline(pass_id);
 
 function passwordStrength(pw) {
-  return (
-    /.{5,}/.test(pw) /* at least 5 characters */ *
+  let count =
+    /.{5,}/.test(pw) /* at least 5 characters */ +
     (/.{8,}/.test(pw) /* bonus if longer */ +
     /[a-z]/.test(pw) /* a lower letter */ +
     /[A-Z]/.test(pw) /* a upper letter */ +
     /\d/.test(pw) /* a digit */ +
-      /[^A-Za-z0-9]/.test(pw)) /* a special character */
-  );
+      /[^A-Za-z0-9]/.test(pw)); /* a special character */
+  infoProgress.style.visibility = count == 6 ? "visible" : "hidden";
+  return count;
 }
 
-let pwInput = document.getElementById("pass_id");
-
-pwInput.addEventListener("keyup", function() {
-  document.getElementById("strength").value = passwordStrength(pwInput.value);
+pass_id.addEventListener("keyup", function() {
+  strength.value = passwordStrength(pass_id.value);
 });
